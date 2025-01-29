@@ -1,0 +1,68 @@
+pandas
+pymysql
+sqlalchemy
+
+
+#Instructions & Termnal Commands
+
+
+# Environment Setup
+
+## Windows Command Prompt Commands
+```cmd
+:: Install Python from the official website if not installed.
+:: Make sure to check "Add Python to PATH" during installation.
+
+:: Install pip if not installed (comes with Python installations).
+python -m ensurepip --upgrade
+```
+
+# Kaggle API Setup
+
+## Windows Commands
+```bash
+# Create a Kaggle account if you don't have one.
+# Go to your account settings and click on "Create New API Token".
+# This will download a file called kaggle.json.
+
+# Create a directory for Kaggle configuration
+mkdir %USERPROFILE%\.kaggle   # Windows
+
+# Move kaggle.json to the Kaggle directory
+# Use the following commands to copy the kaggle.json file:
+
+copy %USERPROFILE%\Downloads\kaggle.json %USERPROFILE%\.kaggle\   # Windows
+
+# Set the permissions for kaggle.json
+
+```
+
+# Download Datasets
+
+##  Windows Commands
+```bash
+# Navigate to the directory where you want to download the dataset
+cd path/to/your/directory
+
+# Example: Download a dataset (replace 'dataset-name' with the actual dataset slug)
+kaggle datasets download -d dataset-name
+
+# Unzip the dataset
+unzip dataset-name.zip   # This will extract the files in the current directory
+```
+
+# Install Required Libraries
+
+##  Windows Commands
+```bash
+# Install the necessary Python libraries
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+# Summary of Commands
+1. **Environment Setup:** Install Homebrew (macOS) or Python (Windows).
+2. **Kaggle API Setup:** Generate API token and configure kaggle.json.
+3. **Download Datasets:** Use Kaggle API commands to download datasets and unzip them.
+4. **Install Libraries:** Use pip to install required libraries for data analysis.
+
+
