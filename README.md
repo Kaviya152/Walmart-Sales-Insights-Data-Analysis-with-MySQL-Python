@@ -1,4 +1,4 @@
-# Walmart Sales Data Analysis: ( MySQL + Python )
+# Walmart Sales Insights: Data Analysis with MySQL & Python
 
 ## Project Overview
 
